@@ -1,2 +1,5 @@
-# PixelmonLegendsLevelled
-Minecraft sidemod that makes Pixelmon legendaries and ultra beasts spawn at the same level as the players highest party level.
+https://modrinth.com/mod/pixelmon-legends-levelled
+
+Made by CCDelic
+
+Support the pixelmon mod here: https://pixelmonmod.com/
