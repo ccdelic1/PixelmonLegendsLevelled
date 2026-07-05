@@ -1,0 +1,36 @@
+# NeoForge mod metadata.
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="pixelmonlegendslevelled"
+version="9.3.16.x.1"
+displayName="Pixelmon Legends Levelled"
+authors="CCDelic"
+description='''
+Legendaries and Ultra Beasts always spawn at the level of the nearest player's (or triggering player's)
+strongest party Pokemon, regardless of spawn condition.
+'''
+
+[[dependencies.pixelmonlegendslevelled]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.172,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.pixelmonlegendslevelled]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+# Load after Pixelmon so this mod can safely read Pixelmon APIs.
+[[dependencies.pixelmonlegendslevelled]]
+modId="pixelmon"
+type="required"
+versionRange="[9.0,)"
+ordering="AFTER"
+side="BOTH"
